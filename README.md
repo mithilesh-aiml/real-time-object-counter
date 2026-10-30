@@ -46,4 +46,4 @@ streamlit run app.py
 
 ## 👨‍💻 Developer
 
-**Mithilesh Y**
+Mithilesh Kumar 

@@ -53,4 +53,4 @@ Currently under development and testing.
 
 ## Developer
 
-**Mithilesh Yadav**
+MITHILESH KUMAR

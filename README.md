@@ -1,38 +1,41 @@
-# 🎯 Real-Time Object Detection & Counting
+# Real-Time Object Detection and Counting System
 
-### Detect and Count Objects Live Using YOLO11, OpenCV and Python
+## About the Project
 
-## 🚀 Live Demo
+Real-Time Object Detection and Counting is an AI-powered computer vision application designed to detect, identify, and count multiple objects through a live camera feed.
 
-👉 **[CLICK HERE TO OPEN LIVE PROJECT](https://real-time-object-counter.onrender.com)**
+The project uses the YOLO (You Only Look Once) object detection model to identify objects in real time. It processes video frames, detects objects, displays bounding boxes around detected objects, and calculates the number of objects belonging to different categories.
 
-🌐 **Live Website:** [https://real-time-object-counter.onrender.com](https://real-time-object-counter.onrender.com)
+The application is built using Python and Streamlit, providing a simple and user-friendly interface that makes AI-based object detection accessible to users.
 
-## 📌 About The Project
+## Key Features
 
-Real-Time Object Detection & Counting is a computer vision application that detects and counts objects from a live webcam feed.
+- Real-time object detection using YOLO.
+- Automatic counting of detected objects.
+- Bounding boxes and object labels.
+- Confidence threshold adjustment.
+- Live webcam integration.
+- Simple and interactive Streamlit UI.
+- Designed for laptop and Android mobile browsers, including Redmi devices.
 
-It uses the YOLO11n deep learning model, OpenCV and Python to identify objects in real time.
-
-## ✨ Features
-
-- Real-time webcam object detection
-- Automatic object counting
-- YOLO11n deep learning model
-- Object-wise counting statistics
-- Adjustable confidence threshold
-- Interactive Streamlit dashboard
-
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
-- YOLO11 (Ultralytics)
-- OpenCV
+- YOLO (Ultralytics)
 - Streamlit
+- OpenCV
 - Streamlit-WebRTC
 - PyAV
 
-## ⚙️ Run Locally
+## Applications
+
+- People and crowd counting.
+- Object monitoring.
+- Smart surveillance prototypes.
+- Retail inventory monitoring.
+- Computer vision learning and research.
+
+## Installation and Setup
 
 ```bash
 git clone https://github.com/mithilesh-aiml/real-time-object-counter.git
@@ -44,6 +47,10 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 👨‍💻 Developer
+## Project Status
 
-Mithilesh Kumar 
+Currently under development and testing.
+
+## Developer
+
+**Mithilesh Yadav**

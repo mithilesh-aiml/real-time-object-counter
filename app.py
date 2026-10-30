@@ -109,11 +109,6 @@ st.write(
 ctx = webrtc_streamer(
     key="object-counter",
     mode=WebRtcMode.SENDRECV,
-    rtc_configuration={
-        "iceServers": [
-            {"urls": ["stun:stun.l.google.com:19302"]},
-        ]
-    },
     video_processor_factory=lambda: ObjectDetector(confidence),
     media_stream_constraints={"video": True, "audio": False},
     async_processing=True,
